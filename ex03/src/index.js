@@ -1,10 +1,13 @@
-var myGlobalVariable = 10;
+// Write code below this line
+var myGlobalVariable;
+    myGlobalVariable = 10;
 function function1( ) {
     notGlobalVaribale = 5;
 } 
 
+// Write code above this line
 function function2() {
-    var result = ""
+    var result = "";
     if (typeof myGlobalVariable != "undenifined") {
         result += "myGlobalVariable: " + myGlobalVariable;
     }
