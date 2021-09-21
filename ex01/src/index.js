@@ -1,13 +1,9 @@
+// Write code below this line
+
 function reusableFunction() {
     console.log("Hi Padawan!");
-
-    //Only change code below this line
-
-    
-
-    //Only change code above this line
-
-    
 }
 reusableFunction();
+// Write code above this line
+
 module.exports = reusableFunction;
