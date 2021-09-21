@@ -1,10 +1,10 @@
-
-function reusablePrintInfo(parameter1, parameter2) {
-    console.log(parameter1, parameter2);
+// Write code below this line
+function functionPrintInfo(name, age) {
+    console.log(name, age);
 
 }
 
-reusablePrintInfo("John", "23");
-reusablePrintInfo("Michael", "43");
-
-module.exports = reusablePrintInfo;
+functionPrintInfo("John", 23);
+functionPrintInfo("Michael", 43);
+// Write code above this line
+module.exports = functionPrintInfo;
